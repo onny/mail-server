@@ -63,3 +63,7 @@ incremental = false
 debug-assertions = false
 overflow-checks = false
 rpath = false
+
+[patch.crates-io]
+hickory-proto = { git = "https://github.com/hickory-dns/hickory-dns.git", rev = "9cf275f750968c1612d63d585398734ae4a1b50b" }
+ldap3 = { git = "https://github.com/inejge/ldap3.git", rev = "ba38bc573d63b109b92dca80898633512d5c47df" }
